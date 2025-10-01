@@ -7,33 +7,34 @@ import Markdown from "react-markdown";
 const content = `
 # About Me  
 
-Hi, I'm Sophie—an aspiring writer with a passion for storytelling in all its forms. I love diving deep into the worlds of books and films, analyzing the intricacies of character, plot, and theme. When I’m not reviewing the latest releases, I’m crafting my own short stories—blending vivid characters, evocative settings, and thought-provoking narratives.  
+Hi, welcome to my website. My name is Sophie and I’m an aspiring writer. 
 
-Exploring the human experience, capturing fleeting moments, and building immersive worlds drive my writing. I believe that a great story lingers long after the final page or credits roll.  
+After completing a creative writing course earlier this year, I started this website to begin sharing my writing publicly. 
 
-![Sophie Inside](/images/sophie-inside.jpg)
+I have always loved the act of writing and storytelling, with my inspiration being planted and watered through books and films as a child. I’m excited to finally be transferring my countless notebooks of writing to this online space. 
+
+Whilst I’ll be reserving some of my book drafts from here, I will be sharing my writing in its varying forms, including book and film reviews, articles and my own fiction pieces. 
+
+I hope you enjoy reading the content I share and if you would like to share your thoughts on my writing; feel free to comment on my posts or contact me through my Instagram page. 
+
+![Sophie Inside](/images/sophie_bw.jpg)
 
 ---
 
 📫 **Get in Touch**  
-I'd love to connect! Whether you want to chat about a recent review, discuss writing, or just say hi, feel free to reach out:  
-
-- **Email:** [sophie.e.grubb@gmail.com](mailto:sophie.e.grubb@gmail.com)  
-- **LinkedIn:** [@sophie-grubb](https://www.linkedin.com/in/sophie-grubb-5b272518b/)  
-- **Instagram:** [@sophie_grubbbb](https://www.instagram.com/sophie_grubbbb/)  
-
+I'd love to connect! Whether you want to chat about a recent review, discuss writing, or just say hi, feel free to reach out on Instagram: [@sophieg_writes](https://www.instagram.com/sophieg_writes/).
 `;
 
 export async function generateMetadata() {
   return {
     title: "About Me",
-    description: "Learn more about Samantha and her travel adventures",
+    description: "Learn more about Sophie and her writing",
     openGraph: {
       title: "About Me",
-      description: "Learn more about Samantha and her travel adventures",
+      description: "Learn more about Sophie and her writing",
       images: [
         signOgImageUrl({
-          title: "Samantha",
+          title: "Sophie",
           label: "About Me",
           brand: config.blog.name,
         }),
