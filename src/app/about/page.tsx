@@ -15,14 +15,9 @@ I have always loved the act of writing and storytelling, with my inspiration bei
 
 Whilst I’ll be reserving some of my book drafts from here, I will be sharing my writing in its varying forms, including book and film reviews, articles and my own fiction pieces. 
 
-I hope you enjoy reading the content I share and if you would like to share your thoughts on my writing; feel free to comment on my posts or contact me through my Instagram page. 
+I hope you enjoy reading the content I share and if you would like to share your thoughts on my writing; feel free to comment on my posts or contact me through my Instagram page: [@sophieg_writes](https://www.instagram.com/sophieg_writes/).
 
 ![Sophie Inside](/images/sophie_bw.jpg)
-
----
-
-📫 **Get in Touch**  
-I'd love to connect! Whether you want to chat about a recent review, discuss writing, or just say hi, feel free to reach out on Instagram: [@sophieg_writes](https://www.instagram.com/sophieg_writes/).
 `;
 
 export async function generateMetadata() {
