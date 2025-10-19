@@ -19,7 +19,10 @@ interface MenuItem {
   openInNewTab?: boolean;
 }
 const menuItems: MenuItem[] = [
-  { name: "Blog", href: "/" },
+  { name: "Home", href: "/" },
+  { name: "Stories", href: "/tag/story" },
+  { name: "Reviews", href: "/tag/review" },
+  { name: "Articles", href: "/tag/article" },
   { name: "About", href: "/about" },
 ];
 export const Navigation: FunctionComponent = () => {
