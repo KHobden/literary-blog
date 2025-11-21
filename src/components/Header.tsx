@@ -20,6 +20,7 @@ interface MenuItem {
 }
 const menuItems: MenuItem[] = [
   { name: "Home", href: "/" },
+  { name: "Children's Stories", href: "/tag/childrens-story" },
   { name: "Stories", href: "/tag/story" },
   { name: "Reviews", href: "/tag/review" },
   { name: "Articles", href: "/tag/article" },
