@@ -42,7 +42,7 @@ export default function RootLayout({
         )}
       >
         <SpeedInsights/>
-        <Analytics />
+        <Analytics/>
         <Providers>
           <main>{children}</main>
         </Providers>
