@@ -77,17 +77,32 @@ export const Navigation: FunctionComponent = () => {
   );
 };
 
+const logoProps = {
+  width: 250,
+  height: 187.5,
+  alt: "Site Logo",
+  className: "object-contain ml-8",
+};
+
 export const Header: FunctionComponent = () => {
   return (
     <section className="flex items-center justify-between mt-8 md:mt-16 mb-12">
       <Link href="/">
+        
+        {/* Light mode image */}
         <Image
-          src="/images/site_logo.svg"
-          alt="Site Logo"
-          width={250}
-          height={187.50}
-          className="object-contain dark:invert ml-8"
+          {...logoProps}
+          src="/images/site_logo_coloured.svg"
+          className={`${logoProps.className} dark:hidden`}
         />
+
+        {/* Dark mode image (inverted) */}
+        <Image
+          {...logoProps}
+          src="/images/site_logo_bw.svg"
+          className={`${logoProps.className} hidden dark:block invert`}
+        />
+
       </Link>
       <Navigation />
     </section>
